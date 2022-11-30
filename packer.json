@@ -12,8 +12,6 @@
     "_comment1" : "packer build -var \"aws_secret_key=foo\" template.json",
     "_comment2" : "packer build -var-file packer-vars.json template.json",
     "builders": [{
-      "access_key": "AKIAV3MEI5S4GRKUO3EC",
-      "secret_key": "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",
       "type": "amazon-ebs",
       "region": "us-east-1",
       "source_ami": "ami-0b0dcb5067f052a63",
